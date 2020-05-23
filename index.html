@@ -1,41 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <title>HTML</title>
-  
-  <!-- HTML -->
-  
-
-  <!-- Custom Styles -->
+  <title>Font Displayer</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <div class="container">
+    <h2 class="about">Input Your Text Here and Select the Font You Want it to Display</h2>
     <form class="form">
       <div class="textbody">
-        <input type="textarea" id="word" name="word" placeholder="Input Text Here" required>
+        <textarea id="word" name="word" rows="15" required></textarea>
       </div>
-      
-      <div class="font1">
-        <button id="font1">Balsamiq Sans</button>
+      <div class="select-font">
+        <label for="font">Font Style : </label>
+        <div class="me">
+          <input type="radio" name="font" value="A" checked> Balsamiq Sans <br>
+          <input type="radio" name="font" value="B"> Yanone Kaffeesatz <br>
+          <input type="radio" name="font" value="C"> Chelsea Market <br>
+        </div>
       </div>
-      <div class="font2">
-        <button id="font2">Chelsea Market</button>
+      <div class="submit">
+        <input type="submit" name="Submit" id="Submit" value="Submit" required />
       </div>
-      <div class="font3">
-        <button id="font3">Yanone Kaffeesat</button>
-      </div>
-      
     </form>
+    <h4>
+      <pre class="result"></pre>
+    </h4>
   </div>
-  
-  <h4 class="result"></h4>
-  
   <script src="main.js"></script>
 </body>
+
 </html>
