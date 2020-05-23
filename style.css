@@ -48,15 +48,18 @@ h4.result {
 }
 
 .balsa {
-  font-family: monospace;
+  font-family: 'Balsamiq Sans', cursive;
+  font-weight: bold;
 }
 
 .yanone {
-  font-family: fantasy;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-weight: bold;
 }
 
 .chelsea {
-  font-family: cursive;
+  font-family: 'Chelsea Market', cursive;
+  font-weight: bold;
 }
 #ha {
   width: 100%;
