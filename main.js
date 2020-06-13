@@ -10,10 +10,12 @@ form.addEventListener('submit', e => {
     result.classList.add('balsa');
     return result.textContent = word1;
     console.log(result.classList)
-  } else if (form.font.value === 'B') {
+  }
+  if (form.font.value === 'B') {
     result.classList.add('yanone');
     return result.textContent = word1;
-  } else {
+  } 
+  if (form.font.value === 'C' {
     result.classList.add('chelsea');
     return result.textContent = word1;
   }
