@@ -4,17 +4,17 @@ let form = document.querySelector('.form');
 
 form.addEventListener('submit', e => {
   e.preventDefault();
-  word = word.value;
+  word1 = word.value;
   
   if (form.font.value === 'A') {
     result.classList.add('balsa');
-    return result.textContent = word;
+    return result.textContent = word1;
     console.log(result.classList)
   } else if (form.font.value === 'B') {
     result.classList.add('yanone');
-    return result.textContent = word;
+    return result.textContent = word1;
   } else {
     result.classList.add('chelsea');
-    return result.textContent = word;
+    return result.textContent = word1;
   }
 })
